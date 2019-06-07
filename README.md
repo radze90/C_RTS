@@ -6,6 +6,7 @@ Echtzeitsysteme
 | Übung           | makefile               | discreption                       | files
 | --------------- | ---------------------- | --------------------------------- | -----
 | **Übung3 - A1** | make demo_processmodel | Processmodel with blocking        | demo_processmodel.c
+|                 |                        |                                   | demo_processmodel_signal.sh
 |                 |                        |                                   | process.c / .h
 |                 |                        |                                   | queue.c / .h
 |                 |                        |                                   | processmodel.c / .h
