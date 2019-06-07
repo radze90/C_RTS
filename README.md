@@ -12,11 +12,11 @@ Echtzeitsysteme
 | Übung3 - A2 | make demo_signal       | Own Signal Programming            | demo_signal.c
 |             |                        |                                   | signal_mylibary.c / .h
 |             | make demo_signalOrig   | Programm, how works with signal.h | demo_signalOrig
-| Übung3 - A3 | make demo_childwait    | *"in Progress"*                   | demo_childwait.c
+| Übung3 - A3 | make demo_childwait    | **"in Progress"**                   | demo_childwait.c
 |             |                        |                                   | childwait.c / .h
 
-make all - create all exutable files\
-make clean - remove al exutable + debug files and directory\
+**make all** - create all exutable files\
+**make clean** - remove al exutable + debug files and directory
 
 --------
 Die Übungen dienen allein zu Lehrzwecken und wurden von den jeweiligen Dozenten zur Verfügung gestellt.
