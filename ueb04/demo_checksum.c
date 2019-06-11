@@ -28,7 +28,7 @@ int sum_of_digits(char *num){
    do {
       temp = number % potenz;             // Bsp.: 1234 % 10 = 4
       ziffer = (temp / (potenz / 10));    // Ziffer = 4 / (10 / 10)) = 4
-      printf("%d\n", ziffer);
+//      printf("%d\n", ziffer);  zum Testen
       potenz *= 10;                       // Potenz = 100
       number -= temp;                     // 1234 - 4
       sum += ziffer;
