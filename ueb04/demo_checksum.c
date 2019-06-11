@@ -22,9 +22,9 @@ int sum_of_digits(char *num){
          return -1;
    }
    
+   // Zahl in einzelne Ziffer zerlegen und Addieren (Quersumme)
    int number = atoi(num);    // string to integer
    int temp, potenz = 10, ziffer, sum = 0;
-   // Zahl in einzelne Ziffer zerlegen und Addieren (Quersumme)
    do {
       temp = number % potenz;             // Bsp.: 1234 % 10 = 4
       ziffer = (temp / (potenz / 10));    // Ziffer = 4 / (10 / 10)) = 4
